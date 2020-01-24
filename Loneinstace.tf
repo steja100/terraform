@@ -2,9 +2,7 @@ provider "aws" {
  
   version = "~> 2.0"
   region = "ap-south-1"
-  access_key = "AKIA6HM5EDLZBSYMFR5U"
-  secret_key = "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"
-}
+ }
 
 
 data aws_vpc "vpc_name"{}
